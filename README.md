@@ -1,4 +1,4 @@
-Project tested on Mac with M2 chip
+Project tested on Mac with ARM CPU
 
 - Dockerfiles are located in the respective microservice folders.
 - Documentation file is documentation.pdf.
