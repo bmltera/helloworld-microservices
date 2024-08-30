@@ -13,7 +13,9 @@ Project tested on Mac with M2 chip
 3. Test the microservices by running the script `bash app.sh`. This will call both services and return their concatenation, resulting in a console output of `Hello World`.
 
 
-## Repositories
+## Links
 github: https://github.com/bmltera/helloworld-microservices/tree/main
 
 dockerhub: https://hub.docker.com/repositories/bmltera
+
+further documentation: https://docs.google.com/document/d/1R0N45eJJWsVCOO5zh1dZAHo-e1IEkakm7TRjB9OXmQQ/edit?usp=sharing
