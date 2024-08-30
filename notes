@@ -1,0 +1,18 @@
+docker run -p 3000:3000 -d world
+minikube start
+
+//deploy application in kubernetes
+
+kubectl get pods
+kubectl get deployments
+kubectl delete <name>
+kubectl apply -f deployment-hello.yml
+kubectl apply -f deployment-world.yml
+kubectl apply -f service-hello.yml
+kubectl apply -f service-world.yml
+minikube tunnel
+kubectl get deployment
+kubectl get svc
+
+
+minikube service world-service

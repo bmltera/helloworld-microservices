@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hello
+  template:
+    metadata:
+      labels:
+        app: hello
+    spec:
+      containers:
+      - name: nodeserver
+        image: bmltera/hello:latest
+        resources:
+          limits:
+            memory: "2048Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 3000
