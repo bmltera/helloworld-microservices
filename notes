@@ -16,3 +16,4 @@ kubectl get svc
 
 
 minikube service world-service
+minikube delete
